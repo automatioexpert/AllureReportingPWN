@@ -1,0 +1,126 @@
+After cloning the project from github and ran the execution and all test executed fine
+and new allure reports are generated. Below is the execution console logs.
+-----------------------------------------------------------------------
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for AllureReporting:AllureReporting:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 23, column 12
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mAllureReporting:AllureReporting[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding AllureReporting 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mAllureReporting[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory C:\Users\valmiki\git\repository158\AllureReportingPWN\src\main\resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mAllureReporting[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mAllureReporting[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory C:\Users\valmiki\git\repository158\AllureReportingPWN\src\test\resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mAllureReporting[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to C:\Users\valmiki\git\repository158\AllureReportingPWN\target\test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.20:test[m [1m(default-test)[m @ [36mAllureReporting[0;1m ---[m
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.pom (1.0 kB at 480 B/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.pom (9.4 kB at 23 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.pom (3.7 kB at 9.6 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.pom (2.0 kB at 4.6 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.pom (3.2 kB at 6.4 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.jar
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/2.20/surefire-logger-api-2.20.jar (13 kB at 12 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.20/maven-surefire-common-2.20.jar (331 kB at 310 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.20/surefire-booter-2.20.jar (50 kB at 38 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.20/surefire-api-2.20.jar (182 kB at 128 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar (2.1 MB at 876 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.20/surefire-testng-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.20/surefire-testng-2.20.pom (2.3 kB at 5.6 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.20/surefire-providers-2.20.pom (2.6 kB at 6.0 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.pom (2.7 kB at 6.8 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.20/surefire-testng-utils-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.20/surefire-testng-utils-2.20.pom (3.0 kB at 8.2 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.pom (2.6 kB at 6.1 kB/s)
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.20/surefire-testng-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar
+[[1;34mINFO[m] Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.20/surefire-testng-utils-2.20.jar
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.20/surefire-grouper-2.20.jar (40 kB at 96 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.20/common-java5-2.20.jar (50 kB at 120 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng-utils/2.20/surefire-testng-utils-2.20.jar (27 kB at 59 kB/s)
+[[1;34mINFO[m] Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-testng/2.20/surefire-testng-2.20.jar (44 kB at 82 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running [1mTestSuite[m
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+I am in onStart method Test
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 28848
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 29, 2022 2:08:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+I am in onTestStart method logoPresence start
+I am in onTestSuccess method logoPresence succeed
+I am in onTestStart method loginTest start
+I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+I am in onTestStart method registrationTest start
+I am in onTestSkipped method registrationTest skipped
+I am in onFinish method Test
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m3[m, [1;31mFailures: [0;1;31m1[m, Errors: 0, [1;33mSkipped: [0;1;33m1[m, Time elapsed: 63.88 s[1;31m <<< FAILURE![m - in [1mTestSuite[m
+[[1;31mERROR[m] loginTest(allureReports.Tests)  Time elapsed: 9.474 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='button-1 login-button']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-N60QB27', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\valmiki\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0449694bcafdd093e082900c55e5af36
+*** Element info: {Using=xpath, value=//input[@class='button-1 login-button']}
+	at allureReports.Tests.loginTest(Tests.java:58)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mFailures: [m
+[[1;31mERROR[m] [1;31m  Tests.loginTest:58 » NoSuchElement no such element: Unable to locate element: ...[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 3, Failures: 1, Errors: 0, Skipped: 1[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] There are test failures.
+
+Please refer to C:\Users\valmiki\git\repository158\AllureReportingPWN\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:23 min
+[[1;34mINFO[m] Finished at: 2022-12-29T02:08:50+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
